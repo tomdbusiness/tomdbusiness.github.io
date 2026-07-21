@@ -6,8 +6,12 @@
 * {
     padding: 0;
     margin: 0;
-    color: var(--color-primary);
     /* This uses the variable */
+}
+
+body {
+    color: var(--color-primary);
+    /* moved color primary to body rather than wildcard (*) */
 }
 
 .wrap {
@@ -41,10 +45,13 @@
     justify-content: center;
     /* with this, you can put anything in a <div class="center"></div> and it'll be centered in whatever its inside */
     /* see the index.html, i did it with the image */
+    /* also its the EXACT same css as .wrap but it's whatever */
 }
 
 marquee {
     border-top: solid 1px var(--color-primary);
     border-bottom: solid 1px var(--color-primary);
     padding: 6px 0;
+    font-size: 18px;
+    font-weight: 600;
 }
