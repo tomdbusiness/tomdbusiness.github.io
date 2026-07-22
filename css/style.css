@@ -16,6 +16,7 @@
 
 body {
     color: var(--color-primary);
+    background-color: var(--color-tertiary);
     /* moved color primary to body rather than wildcard (*) */
 }
 
